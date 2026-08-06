@@ -1,0 +1,248 @@
+## version $VER: Format.catalog 2.0 (06.08.2026)
+## language svenska
+## codeset 0
+;
+MSG_OK
+OK
+; OK
+;
+MSG_CANCEL
+Avbryt
+; Cancel
+;
+MSG_INSERT_DISK
+Sätt i disken som ska formateras i enhet %s\nTryck RETURN för att börja formatera eller CTRL-C för att avbryta: 
+; Insert disk to be formatted in device %s\nPress RETURN to begin formatting or CTRL-C to abort: 
+;
+MSG_FORMATTING
+\rFormaterar cylinder %lu, %lu kvar 
+; \rFormatting cylinder %lu, %lu to go 
+;
+MSG_VERIFYING
+\rVerifierar 
+; \rVerifying 
+;
+MSG_INITIALIZING
+Initierar disk...\n
+; Initializing disk...\n
+;
+MSG_SELECTDEVICE
+Välj enhet att formatera
+; Select Device To Format
+;
+MSG_GUI_FORMATTING
+Formaterar disk...
+; Formatting Disk...
+;
+MSG_GUI_INITIALIZING
+Initierar disk...
+; Initializing Disk...
+;
+MSG_IN_DEVICE
+i enhet %s
+; in device %s
+;
+MSG_FORMAT_REQUEST_TITLE
+Formateringsförfrågan
+; Format Request
+;
+MSG_FORMAT_REQUEST_GADGETS
+Formatera|Avbryt
+; Format|Cancel
+;
+MSG_FORMAT_REQUEST_TEXT
+OK att formatera volymen\n%s?\n\nVARNING!\n\nAll data kommer att gå förlorad!\n(%s)
+; OK to format volume\n%s?\n\nWARNING!\n\nAll data will be lost!\n(%s)
+;
+MSG_UNITS
+KMGTPE
+; KMGTPE
+;
+MSG_CAPACITY_USED
+%lu%lc kapacitet, %lu%% använt
+; %lu%lc capacity, %lu%% used
+;
+MSG_CAPACITY
+%lu%lc kapacitet
+; %lu%lc capacity
+;
+MSG_ERROR_WANDERER
+Måste startas från Wanderer med en markerad symbol\n
+; Must be started from Wanderer with a selected icon\n
+;
+MSG_WINDOW_TITLE
+Formatera - %s
+; Format - %s
+;
+MSG_DEVICE
+Enhet '%s'
+; Device '%s'
+;
+MSG_VOLUME
+Volym '%b'
+; Volume '%b'
+;
+MSG_APPLICATION_TITLE
+Formatera
+; Format
+;
+MSG_DESCRIPTION
+Verktyg för diskformatering
+; Disk Formatting Utility
+;
+MSG_COPYRIGHT
+Copyright \xa9 1999 Ben Hutchings, 2008 Pavel Fedin, 2008 The AROS Development Team
+; Copyright \xa9 1999 Ben Hutchings, 2008 Pavel Fedin, 2008 The AROS Development Team
+;
+MSG_AUTHOR
+Ben Hutchings, Pavel Fedin, The AROS Development Team
+; Ben Hutchings, Pavel Fedin, The AROS Development Team
+;
+MSG_LABEL_CURRENT_INFORMATION
+Aktuell information:
+; Current Information:
+;
+MSG_LABEL_NEW_VOLUME_NAME
+Nytt volymnamn:
+; New Volume Name:
+;
+MSG_DEFAULT_VOLUME_NAME
+Tom
+; Empty
+;
+MSG_LABEL_PUT_TRASHCAN
+Skapa papperskorg:
+; Put Trashcan:
+;
+MSG_LABEL_FFS
+Fast File System:
+; Fast File System:
+;
+MSG_LABEL_INTL
+Internationellt läge:
+; International Mode:
+;
+MSG_LABEL_CACHE
+Katalogcache:
+; Directory Cache:
+;
+MSG_BTN_FORMAT
+Formatera
+; Format
+;
+MSG_BTN_QFORMAT
+Snabbformatering
+; Quick Format
+;
+MSG_BTN_CANCEL
+Avbryt
+; Cancel
+;
+MSG_BTN_STOP
+Stopp
+; Stop
+;
+MSG_ERROR_NO_APPLICATION
+Kan inte skapa applikation\n
+; Can't create application\n
+;
+MSG_ERROR_NO_WINDOW
+Kan inte öppna fönster\n
+; Can't open window\n
+;
+MSG_REQ_ERROR_TITLE
+Fel
+; Error
+;
+MSG_ERRORS_WARNING
+Varning
+; Warning
+;
+MSG_ERRORS_ERROR
+Fel
+; Error
+;
+MSG_ERRORS_FAILURE
+Misslyckande
+; Failure
+;
+MSG_FORMAT
+Formatera 
+; Format 
+;
+MSG_ERROR_INVALID_DOSTYPE
+Ogiltig DosType-specifikation
+; Invalid DosType specification
+;
+MSG_ERROR_TOO_LARGE_1
+Den här enheten är större än 4 gigabyte. Amigas filsystem kan inte hantera en så stor enhet.
+; This device is larger than 4 gigabytes in size. The Amiga file-system cannot handle a device this large.
+;
+MSG_ERROR_TOO_LARGE_2
+Den här enheten sträcker sig bortom de första 4 gigabyte på disken den ligger på.  För att kunna använda den måste du installera version 43 eller senare av Amigas filsystem.
+; This device extends beyond the first 4 gigabytes of the disk it is on.  In order to use it, you must install version 43 or later of the Amiga file-system.
+;
+MSG_ERROR_TOO_LARGE_3
+Den här enheten är större än 2 gigabyte. För att kunna använda den måste du installera version 40 eller senare av Amigas filsystem.
+; This device is larger than 2 gigabytes in size. In order to use it, you must install version 40 or later of the Amiga file-system.
+;
+MSG_ERROR_TOO_LARGE_4
+Den här enheten är inställd på att använda buffertar i minne som kanske inte är \"publikt\". Detta kan få datorn att krascha om du använder ett virtuellt minnessystem. Du bör lägga till 1 till enhetens BufMemType-inställning för att undvika detta.
+; This device is set to use buffers in memory that may not be \"public\". This can cause your computer to crash if you use a virtual memory system. You should add 1 to the BufMemType setting for this device to avoid this.
+;
+MSG_ERROR_DEVICE
+Öppnandet av enheten returnerade fel %ld
+; Device open returned error %ld
+;
+MSG_ERROR_IDE
+Den här enheten verkar sitta på en IDE-disk som använder en gammal Commodore-IDE-drivrutin.  Drivrutinen kan försöka utföra långa dataöverföringar som vissa IDE-diskar inte hanterar korrekt.  För att undvika risken för dataförlust bör du ändra enhetens MaxTransfer-inställning till 0x10000.
+; This device appears to be on an IDE drive using an old Commodore IDE driver.  This driver may attempt to perform long data transfers that some IDE drives do not carry out correctly.  To avoid the risk of data loss, you should change this device's MaxTransfer setting to 0x10000.
+;
+MSG_ERROR_DEVICE_QUERY
+Enhetsförfrågan (NSCMD_DEVICEQUERY) returnerade fel %ld
+; Device query (NSCMD_DEVICEQUERY) returned error %ld
+;
+MSG_ERROR_64BIT
+Den här enheten sträcker sig bortom diskens första 4 gigabyte. För att kunna använda enheten måste du antingen använda en drivrutin som stöder NSD:s 64-bitarskommandon eller installera och köra programmet NSDPatch.
+; This device extends beyond the first 4 gigabytes of the disk. In order to use this device, you must either use a driver that supports the NSD 64-bit commands or install and run the NSDPatch program.
+;
+MSG_ERROR_DEVICE_RETURN
+Enheten %s returnerade fel %ld
+; Device %s returned error %ld
+;
+MSG_ERROR_FLUSH
+töm (CMD_UPATE)
+; flush (CMD_UPATE)
+;
+MSG_ERROR_INVALIDATE
+ogiltigförklara (CMD_CLEAR)
+; invalidate (CMD_CLEAR)
+;
+MSG_ERROR_VERIFY
+Verifieringsfel
+; Verify error
+;
+MSG_COMMAND_FORMAT64
+formatera (NSCMD_TD_FORMAT64)
+; format (NSCMD_TD_FORMAT64)
+;
+MSG_COMMAND_FORMAT
+formatera (TD_FORMAT)
+; format (TD_FORMAT)
+;
+MSG_COMMAND_READ64
+läs (NSCMD_TD_READ64)
+; read (NSCMD_TD_READ64)
+;
+MSG_COMMAND_READ
+läs (CMD_READ)
+; read (CMD_READ)
+;
+MSG_ERROR_TRASHCAN
+Kunde inte skapa papperskorg på volymen\n%s
+; Couldn't create trashcan on volume\n%s
+;
+MSG_ERROR_ICON
+Kunde inte skapa disksymbol på volymen\n%s
+; Couldn't create disk icon on volume\n%s
+;

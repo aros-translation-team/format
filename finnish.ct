@@ -1,0 +1,248 @@
+## version $VER: Format.catalog 2.0 (06.08.2026)
+## language suomi
+## codeset 0
+;
+MSG_OK
+Hyv‰ksy
+; OK
+;
+MSG_CANCEL
+Peru
+; Cancel
+;
+MSG_INSERT_DISK
+Aseta alustettava levy laitteeseen %s\nPaina RETURN aloittaaksesi alustuksen tai CTRL-C keskeytt‰‰ksesi: 
+; Insert disk to be formatted in device %s\nPress RETURN to begin formatting or CTRL-C to abort: 
+;
+MSG_FORMATTING
+\rAlustetaan sylinteri‰ %lu, %lu j‰ljell‰ 
+; \rFormatting cylinder %lu, %lu to go 
+;
+MSG_VERIFYING
+\rTarkistetaan 
+; \rVerifying 
+;
+MSG_INITIALIZING
+Valmistellaan levy‰...\n
+; Initializing disk...\n
+;
+MSG_SELECTDEVICE
+Valitse alustettava laite
+; Select Device To Format
+;
+MSG_GUI_FORMATTING
+Alustetaan levy‰...
+; Formatting Disk...
+;
+MSG_GUI_INITIALIZING
+Valmistellaan levy‰...
+; Initializing Disk...
+;
+MSG_IN_DEVICE
+laitteessa %s
+; in device %s
+;
+MSG_FORMAT_REQUEST_TITLE
+Alustuspyyntˆ
+; Format Request
+;
+MSG_FORMAT_REQUEST_GADGETS
+Alusta|Peru
+; Format|Cancel
+;
+MSG_FORMAT_REQUEST_TEXT
+Alustetaanko taltio\n%s?\n\nVAROITUS!\n\nKaikki tiedot menetet‰‰n!\n(%s)
+; OK to format volume\n%s?\n\nWARNING!\n\nAll data will be lost!\n(%s)
+;
+MSG_UNITS
+KMGTPE
+; KMGTPE
+;
+MSG_CAPACITY_USED
+Kapasiteetti %lu%lc, %lu%% k‰ytetty
+; %lu%lc capacity, %lu%% used
+;
+MSG_CAPACITY
+Kapasiteetti %lu%lc
+; %lu%lc capacity
+;
+MSG_ERROR_WANDERER
+T‰ytyy k‰ynnist‰‰ Wandererista kuvake valittuna\n
+; Must be started from Wanderer with a selected icon\n
+;
+MSG_WINDOW_TITLE
+Alustus - %s
+; Format - %s
+;
+MSG_DEVICE
+Laite '%s'
+; Device '%s'
+;
+MSG_VOLUME
+Taltio '%b'
+; Volume '%b'
+;
+MSG_APPLICATION_TITLE
+Alusta
+; Format
+;
+MSG_DESCRIPTION
+Levyn alustustyˆkalu
+; Disk Formatting Utility
+;
+MSG_COPYRIGHT
+Copyright \xa9 1999 Ben Hutchings, 2008 Pavel Fedin, 2008 The AROS Development Team
+; Copyright \xa9 1999 Ben Hutchings, 2008 Pavel Fedin, 2008 The AROS Development Team
+;
+MSG_AUTHOR
+Ben Hutchings, Pavel Fedin, The AROS Development Team
+; Ben Hutchings, Pavel Fedin, The AROS Development Team
+;
+MSG_LABEL_CURRENT_INFORMATION
+Nykyiset tiedot:
+; Current Information:
+;
+MSG_LABEL_NEW_VOLUME_NAME
+Taltion uusi nimi:
+; New Volume Name:
+;
+MSG_DEFAULT_VOLUME_NAME
+Tyhj‰
+; Empty
+;
+MSG_LABEL_PUT_TRASHCAN
+Luo roskakori:
+; Put Trashcan:
+;
+MSG_LABEL_FFS
+Fast File System:
+; Fast File System:
+;
+MSG_LABEL_INTL
+Kansainv‰linen tila:
+; International Mode:
+;
+MSG_LABEL_CACHE
+Hakemistov‰limuisti:
+; Directory Cache:
+;
+MSG_BTN_FORMAT
+Alusta
+; Format
+;
+MSG_BTN_QFORMAT
+Pika-alustus
+; Quick Format
+;
+MSG_BTN_CANCEL
+Peru
+; Cancel
+;
+MSG_BTN_STOP
+Pys‰yt‰
+; Stop
+;
+MSG_ERROR_NO_APPLICATION
+Sovellusta ei voi luoda\n
+; Can't create application\n
+;
+MSG_ERROR_NO_WINDOW
+Ikkunaa ei voi avata\n
+; Can't open window\n
+;
+MSG_REQ_ERROR_TITLE
+Virhe
+; Error
+;
+MSG_ERRORS_WARNING
+Varoitus
+; Warning
+;
+MSG_ERRORS_ERROR
+Virhe
+; Error
+;
+MSG_ERRORS_FAILURE
+Ep‰onnistui
+; Failure
+;
+MSG_FORMAT
+Alusta 
+; Format 
+;
+MSG_ERROR_INVALID_DOSTYPE
+Virheellinen DosType-m‰‰ritys
+; Invalid DosType specification
+;
+MSG_ERROR_TOO_LARGE_1
+T‰m‰ laite on kooltaan yli 4 gigatavua. Amigan tiedostoj‰rjestelm‰ ei pysty k‰sittelem‰‰n n‰in suurta laitetta.
+; This device is larger than 4 gigabytes in size. The Amiga file-system cannot handle a device this large.
+;
+MSG_ERROR_TOO_LARGE_2
+T‰m‰ laite ulottuu sen levyn ensimm‰isten 4 gigatavun ulkopuolelle, jolla se sijaitsee.  K‰ytt‰‰ksesi sit‰ sinun t‰ytyy asentaa Amigan tiedostoj‰rjestelm‰n versio 43 tai uudempi.
+; This device extends beyond the first 4 gigabytes of the disk it is on.  In order to use it, you must install version 43 or later of the Amiga file-system.
+;
+MSG_ERROR_TOO_LARGE_3
+T‰m‰ laite on kooltaan yli 2 gigatavua. K‰ytt‰‰ksesi sit‰ sinun t‰ytyy asentaa Amigan tiedostoj‰rjestelm‰n versio 40 tai uudempi.
+; This device is larger than 2 gigabytes in size. In order to use it, you must install version 40 or later of the Amiga file-system.
+;
+MSG_ERROR_TOO_LARGE_4
+T‰m‰ laite on asetettu k‰ytt‰m‰‰n muistipuskureita, jotka eiv‰t v‰ltt‰m‰tt‰ ole \"public\"-tyyppisi‰. T‰m‰ voi kaataa tietokoneesi, jos k‰yt‰t virtuaalimuistij‰rjestelm‰‰. Sinun tulisi lis‰t‰ 1 t‰m‰n laitteen BufMemType-asetukseen t‰m‰n v‰ltt‰miseksi.
+; This device is set to use buffers in memory that may not be \"public\". This can cause your computer to crash if you use a virtual memory system. You should add 1 to the BufMemType setting for this device to avoid this.
+;
+MSG_ERROR_DEVICE
+Laitteen avaus palautti virheen %ld
+; Device open returned error %ld
+;
+MSG_ERROR_IDE
+T‰m‰ laite n‰ytt‰‰ olevan IDE-asemassa, joka k‰ytt‰‰ vanhaa Commodoren IDE-ajuria.  T‰m‰ ajuri saattaa yritt‰‰ pitki‰ tiedonsiirtoja, joita jotkin IDE-asemat eiv‰t suorita oikein.  Tietojen menetyksen v‰ltt‰miseksi sinun tulisi muuttaa t‰m‰n laitteen MaxTransfer-asetukseksi 0x10000.
+; This device appears to be on an IDE drive using an old Commodore IDE driver.  This driver may attempt to perform long data transfers that some IDE drives do not carry out correctly.  To avoid the risk of data loss, you should change this device's MaxTransfer setting to 0x10000.
+;
+MSG_ERROR_DEVICE_QUERY
+Laitekysely (NSCMD_DEVICEQUERY) palautti virheen %ld
+; Device query (NSCMD_DEVICEQUERY) returned error %ld
+;
+MSG_ERROR_64BIT
+T‰m‰ laite ulottuu levyn ensimm‰isten 4 gigatavun ulkopuolelle. K‰ytt‰‰ksesi t‰t‰ laitetta sinun t‰ytyy joko k‰ytt‰‰ ajuria, joka tukee NSD:n 64-bittisi‰ komentoja, tai asentaa ja ajaa NSDPatch-ohjelma.
+; This device extends beyond the first 4 gigabytes of the disk. In order to use this device, you must either use a driver that supports the NSD 64-bit commands or install and run the NSDPatch program.
+;
+MSG_ERROR_DEVICE_RETURN
+Laite %s palautti virheen %ld
+; Device %s returned error %ld
+;
+MSG_ERROR_FLUSH
+tyhjennys (CMD_UPATE)
+; flush (CMD_UPATE)
+;
+MSG_ERROR_INVALIDATE
+mit‰tˆinti (CMD_CLEAR)
+; invalidate (CMD_CLEAR)
+;
+MSG_ERROR_VERIFY
+Tarkistusvirhe
+; Verify error
+;
+MSG_COMMAND_FORMAT64
+alustus (NSCMD_TD_FORMAT64)
+; format (NSCMD_TD_FORMAT64)
+;
+MSG_COMMAND_FORMAT
+alustus (TD_FORMAT)
+; format (TD_FORMAT)
+;
+MSG_COMMAND_READ64
+luku (NSCMD_TD_READ64)
+; read (NSCMD_TD_READ64)
+;
+MSG_COMMAND_READ
+luku (CMD_READ)
+; read (CMD_READ)
+;
+MSG_ERROR_TRASHCAN
+Roskakoria ei voitu luoda taltiolle\n%s
+; Couldn't create trashcan on volume\n%s
+;
+MSG_ERROR_ICON
+Levykuvaketta ei voitu luoda taltiolle\n%s
+; Couldn't create disk icon on volume\n%s
+;

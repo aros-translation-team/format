@@ -1,0 +1,248 @@
+## version $VER: Format.catalog 2.0 (06.08.2026)
+## language türkçe
+## codeset 12
+;
+MSG_OK
+TAMAM
+; OK
+;
+MSG_CANCEL
+Vazgeç
+; Cancel
+;
+MSG_INSERT_DISK
+Biçimlendirilecek diski %s aygýtýna takýn\nBiçimlendirmeye baþlamak için RETURN, iptal için CTRL-C tuþuna basýn: 
+; Insert disk to be formatted in device %s\nPress RETURN to begin formatting or CTRL-C to abort: 
+;
+MSG_FORMATTING
+\r%lu silindiri biçimlendiriliyor, %lu kaldý 
+; \rFormatting cylinder %lu, %lu to go 
+;
+MSG_VERIFYING
+\rDoðrulanýyor 
+; \rVerifying 
+;
+MSG_INITIALIZING
+Disk hazýrlanýyor...\n
+; Initializing disk...\n
+;
+MSG_SELECTDEVICE
+Biçimlendirilecek Aygýtý Seçin
+; Select Device To Format
+;
+MSG_GUI_FORMATTING
+Disk Biçimlendiriliyor...
+; Formatting Disk...
+;
+MSG_GUI_INITIALIZING
+Disk Hazýrlanýyor...
+; Initializing Disk...
+;
+MSG_IN_DEVICE
+%s aygýtýnda
+; in device %s
+;
+MSG_FORMAT_REQUEST_TITLE
+Biçimlendirme Ýsteði
+; Format Request
+;
+MSG_FORMAT_REQUEST_GADGETS
+Biçimlendir|Vazgeç
+; Format|Cancel
+;
+MSG_FORMAT_REQUEST_TEXT
+Bu veri birimi biçimlendirilsin mi?\n%s\n\nUYARI!\n\nTüm veriler kaybolacak!\n(%s)
+; OK to format volume\n%s?\n\nWARNING!\n\nAll data will be lost!\n(%s)
+;
+MSG_UNITS
+KMGTPE
+; KMGTPE
+;
+MSG_CAPACITY_USED
+%lu%lc kapasite, %lu%% kullanýldý
+; %lu%lc capacity, %lu%% used
+;
+MSG_CAPACITY
+%lu%lc kapasite
+; %lu%lc capacity
+;
+MSG_ERROR_WANDERER
+Wanderer'dan seçili bir simge ile baþlatýlmalýdýr\n
+; Must be started from Wanderer with a selected icon\n
+;
+MSG_WINDOW_TITLE
+Biçimlendir - %s
+; Format - %s
+;
+MSG_DEVICE
+Aygýt '%s'
+; Device '%s'
+;
+MSG_VOLUME
+Veri Birimi '%b'
+; Volume '%b'
+;
+MSG_APPLICATION_TITLE
+Biçimlendir
+; Format
+;
+MSG_DESCRIPTION
+Disk Biçimlendirme Aracý
+; Disk Formatting Utility
+;
+MSG_COPYRIGHT
+Telif Hakký \xa9 1999 Ben Hutchings, 2008 Pavel Fedin, 2008 AROS Geliþtirme Takýmý
+; Copyright \xa9 1999 Ben Hutchings, 2008 Pavel Fedin, 2008 The AROS Development Team
+;
+MSG_AUTHOR
+Ben Hutchings, Pavel Fedin, AROS Geliþtirme Takýmý
+; Ben Hutchings, Pavel Fedin, The AROS Development Team
+;
+MSG_LABEL_CURRENT_INFORMATION
+Geçerli Bilgiler:
+; Current Information:
+;
+MSG_LABEL_NEW_VOLUME_NAME
+Yeni Veri Birimi Adý:
+; New Volume Name:
+;
+MSG_DEFAULT_VOLUME_NAME
+Boþ
+; Empty
+;
+MSG_LABEL_PUT_TRASHCAN
+Çöp Kutusu Oluþtur:
+; Put Trashcan:
+;
+MSG_LABEL_FFS
+Fast File System:
+; Fast File System:
+;
+MSG_LABEL_INTL
+Uluslararasý Kip:
+; International Mode:
+;
+MSG_LABEL_CACHE
+Dizin Önbelleði:
+; Directory Cache:
+;
+MSG_BTN_FORMAT
+Biçimlendir
+; Format
+;
+MSG_BTN_QFORMAT
+Hýzlý Biçimlendir
+; Quick Format
+;
+MSG_BTN_CANCEL
+Vazgeç
+; Cancel
+;
+MSG_BTN_STOP
+Durdur
+; Stop
+;
+MSG_ERROR_NO_APPLICATION
+Uygulama oluþturulamýyor\n
+; Can't create application\n
+;
+MSG_ERROR_NO_WINDOW
+Pencere açýlamýyor\n
+; Can't open window\n
+;
+MSG_REQ_ERROR_TITLE
+Hata
+; Error
+;
+MSG_ERRORS_WARNING
+Uyarý
+; Warning
+;
+MSG_ERRORS_ERROR
+Hata
+; Error
+;
+MSG_ERRORS_FAILURE
+Baþarýsýz
+; Failure
+;
+MSG_FORMAT
+Biçimlendir 
+; Format 
+;
+MSG_ERROR_INVALID_DOSTYPE
+Geçersiz DosType belirtimi
+; Invalid DosType specification
+;
+MSG_ERROR_TOO_LARGE_1
+Bu aygýtýn boyutu 4 gigabayttan büyük. Amiga dosya sistemi bu kadar büyük bir aygýtý iþleyemez.
+; This device is larger than 4 gigabytes in size. The Amiga file-system cannot handle a device this large.
+;
+MSG_ERROR_TOO_LARGE_2
+Bu aygýt, üzerinde bulunduðu diskin ilk 4 gigabaytýnýn ötesine uzanýyor.  Kullanabilmek için Amiga dosya sisteminin 43 veya daha üst bir sürümünü kurmalýsýnýz.
+; This device extends beyond the first 4 gigabytes of the disk it is on.  In order to use it, you must install version 43 or later of the Amiga file-system.
+;
+MSG_ERROR_TOO_LARGE_3
+Bu aygýtýn boyutu 2 gigabayttan büyük. Kullanabilmek için Amiga dosya sisteminin 40 veya daha üst bir sürümünü kurmalýsýnýz.
+; This device is larger than 2 gigabytes in size. In order to use it, you must install version 40 or later of the Amiga file-system.
+;
+MSG_ERROR_TOO_LARGE_4
+Bu aygýt, \"public\" olmayabilecek bellek tamponlarýný kullanacak þekilde ayarlanmýþ. Sanal bellek sistemi kullanýyorsanýz bu, bilgisayarýnýzýn çökmesine neden olabilir. Bunu önlemek için bu aygýtýn BufMemType ayarýna 1 eklemelisiniz.
+; This device is set to use buffers in memory that may not be \"public\". This can cause your computer to crash if you use a virtual memory system. You should add 1 to the BufMemType setting for this device to avoid this.
+;
+MSG_ERROR_DEVICE
+Aygýt açma iþlemi %ld hatasý döndürdü
+; Device open returned error %ld
+;
+MSG_ERROR_IDE
+Bu aygýt, eski bir Commodore IDE sürücüsü kullanan bir IDE diskinde görünüyor.  Bu sürücü, bazý IDE disklerinin doðru þekilde gerçekleþtiremediði uzun veri aktarýmlarý yapmaya çalýþabilir.  Veri kaybý riskini önlemek için bu aygýtýn MaxTransfer ayarýný 0x10000 olarak deðiþtirmelisiniz.
+; This device appears to be on an IDE drive using an old Commodore IDE driver.  This driver may attempt to perform long data transfers that some IDE drives do not carry out correctly.  To avoid the risk of data loss, you should change this device's MaxTransfer setting to 0x10000.
+;
+MSG_ERROR_DEVICE_QUERY
+Aygýt sorgusu (NSCMD_DEVICEQUERY) %ld hatasý döndürdü
+; Device query (NSCMD_DEVICEQUERY) returned error %ld
+;
+MSG_ERROR_64BIT
+Bu aygýt, diskin ilk 4 gigabaytýnýn ötesine uzanýyor. Bu aygýtý kullanabilmek için ya NSD 64 bit komutlarýný destekleyen bir sürücü kullanmalý ya da NSDPatch programýný kurup çalýþtýrmalýsýnýz.
+; This device extends beyond the first 4 gigabytes of the disk. In order to use this device, you must either use a driver that supports the NSD 64-bit commands or install and run the NSDPatch program.
+;
+MSG_ERROR_DEVICE_RETURN
+Aygýt %s iþlemi %ld hatasý döndürdü
+; Device %s returned error %ld
+;
+MSG_ERROR_FLUSH
+boþaltma (CMD_UPATE)
+; flush (CMD_UPATE)
+;
+MSG_ERROR_INVALIDATE
+geçersiz kýlma (CMD_CLEAR)
+; invalidate (CMD_CLEAR)
+;
+MSG_ERROR_VERIFY
+Doðrulama hatasý
+; Verify error
+;
+MSG_COMMAND_FORMAT64
+biçimlendirme (NSCMD_TD_FORMAT64)
+; format (NSCMD_TD_FORMAT64)
+;
+MSG_COMMAND_FORMAT
+biçimlendirme (TD_FORMAT)
+; format (TD_FORMAT)
+;
+MSG_COMMAND_READ64
+okuma (NSCMD_TD_READ64)
+; read (NSCMD_TD_READ64)
+;
+MSG_COMMAND_READ
+okuma (CMD_READ)
+; read (CMD_READ)
+;
+MSG_ERROR_TRASHCAN
+Þu veri biriminde çöp kutusu oluþturulamadý:\n%s
+; Couldn't create trashcan on volume\n%s
+;
+MSG_ERROR_ICON
+Þu veri biriminde disk simgesi oluþturulamadý:\n%s
+; Couldn't create disk icon on volume\n%s
+;

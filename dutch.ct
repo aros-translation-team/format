@@ -1,0 +1,248 @@
+## version $VER: Format.catalog 2.0 (06.08.2026)
+## language nederlands
+## codeset 0
+;
+MSG_OK
+OK
+; OK
+;
+MSG_CANCEL
+Annuleer
+; Cancel
+;
+MSG_INSERT_DISK
+Plaats de te formatteren schijf in apparaat %s\nDruk op RETURN om te beginnen met formatteren of CTRL-C om af te breken: 
+; Insert disk to be formatted in device %s\nPress RETURN to begin formatting or CTRL-C to abort: 
+;
+MSG_FORMATTING
+\rCilinder %lu formatteren, nog %lu te gaan 
+; \rFormatting cylinder %lu, %lu to go 
+;
+MSG_VERIFYING
+\rVerifiëren 
+; \rVerifying 
+;
+MSG_INITIALIZING
+Schijf initialiseren...\n
+; Initializing disk...\n
+;
+MSG_SELECTDEVICE
+Selecteer Apparaat Om Te Formatteren
+; Select Device To Format
+;
+MSG_GUI_FORMATTING
+Schijf formatteren...
+; Formatting Disk...
+;
+MSG_GUI_INITIALIZING
+Schijf initialiseren...
+; Initializing Disk...
+;
+MSG_IN_DEVICE
+in apparaat %s
+; in device %s
+;
+MSG_FORMAT_REQUEST_TITLE
+Formatteerverzoek
+; Format Request
+;
+MSG_FORMAT_REQUEST_GADGETS
+Formatteer|Annuleer
+; Format|Cancel
+;
+MSG_FORMAT_REQUEST_TEXT
+Volume\n%s formatteren?\n\nWAARSCHUWING!\n\nAlle gegevens gaan verloren!\n(%s)
+; OK to format volume\n%s?\n\nWARNING!\n\nAll data will be lost!\n(%s)
+;
+MSG_UNITS
+KMGTPE
+; KMGTPE
+;
+MSG_CAPACITY_USED
+%lu%lc capaciteit, %lu%% gebruikt
+; %lu%lc capacity, %lu%% used
+;
+MSG_CAPACITY
+%lu%lc capaciteit
+; %lu%lc capacity
+;
+MSG_ERROR_WANDERER
+Moet vanuit Wanderer gestart worden met een geselecteerd icoon\n
+; Must be started from Wanderer with a selected icon\n
+;
+MSG_WINDOW_TITLE
+Format - %s
+; Format - %s
+;
+MSG_DEVICE
+Apparaat '%s'
+; Device '%s'
+;
+MSG_VOLUME
+Volume '%b'
+; Volume '%b'
+;
+MSG_APPLICATION_TITLE
+Format
+; Format
+;
+MSG_DESCRIPTION
+Hulpprogramma voor schijfformattering
+; Disk Formatting Utility
+;
+MSG_COPYRIGHT
+Copyright \xa9 1999 Ben Hutchings, 2008 Pavel Fedin, 2008 Het AROS Ontwikkelaars Team
+; Copyright \xa9 1999 Ben Hutchings, 2008 Pavel Fedin, 2008 The AROS Development Team
+;
+MSG_AUTHOR
+Ben Hutchings, Pavel Fedin, Het AROS Ontwikkelaars Team
+; Ben Hutchings, Pavel Fedin, The AROS Development Team
+;
+MSG_LABEL_CURRENT_INFORMATION
+Huidige Informatie:
+; Current Information:
+;
+MSG_LABEL_NEW_VOLUME_NAME
+Nieuwe Volumenaam:
+; New Volume Name:
+;
+MSG_DEFAULT_VOLUME_NAME
+Leeg
+; Empty
+;
+MSG_LABEL_PUT_TRASHCAN
+Prullenbak Plaatsen:
+; Put Trashcan:
+;
+MSG_LABEL_FFS
+Fast File System:
+; Fast File System:
+;
+MSG_LABEL_INTL
+Internationale Modus:
+; International Mode:
+;
+MSG_LABEL_CACHE
+Mapcache:
+; Directory Cache:
+;
+MSG_BTN_FORMAT
+Format
+; Format
+;
+MSG_BTN_QFORMAT
+Snel Formatteren
+; Quick Format
+;
+MSG_BTN_CANCEL
+Annuleer
+; Cancel
+;
+MSG_BTN_STOP
+Stop
+; Stop
+;
+MSG_ERROR_NO_APPLICATION
+Kan applicatie niet aanmaken\n
+; Can't create application\n
+;
+MSG_ERROR_NO_WINDOW
+Kan venster niet openen\n
+; Can't open window\n
+;
+MSG_REQ_ERROR_TITLE
+Fout
+; Error
+;
+MSG_ERRORS_WARNING
+Waarschuwing
+; Warning
+;
+MSG_ERRORS_ERROR
+Fout
+; Error
+;
+MSG_ERRORS_FAILURE
+Mislukt
+; Failure
+;
+MSG_FORMAT
+Formatteer 
+; Format 
+;
+MSG_ERROR_INVALID_DOSTYPE
+Ongeldige DosType-specificatie
+; Invalid DosType specification
+;
+MSG_ERROR_TOO_LARGE_1
+Dit apparaat is groter dan 4 gigabyte. Het Amiga-bestandssysteem kan een apparaat van deze grootte niet aan.
+; This device is larger than 4 gigabytes in size. The Amiga file-system cannot handle a device this large.
+;
+MSG_ERROR_TOO_LARGE_2
+Dit apparaat strekt zich uit voorbij de eerste 4 gigabyte van de schijf waarop het zich bevindt.  Om het te kunnen gebruiken, moet u versie 43 of later van het Amiga-bestandssysteem installeren.
+; This device extends beyond the first 4 gigabytes of the disk it is on.  In order to use it, you must install version 43 or later of the Amiga file-system.
+;
+MSG_ERROR_TOO_LARGE_3
+Dit apparaat is groter dan 2 gigabyte. Om het te kunnen gebruiken, moet u versie 40 of later van het Amiga-bestandssysteem installeren.
+; This device is larger than 2 gigabytes in size. In order to use it, you must install version 40 or later of the Amiga file-system.
+;
+MSG_ERROR_TOO_LARGE_4
+Dit apparaat is ingesteld om buffers te gebruiken in geheugen dat mogelijk niet \"public\" is. Dit kan uw computer laten crashen als u een virtueel geheugensysteem gebruikt. U dient 1 op te tellen bij de BufMemType-instelling van dit apparaat om dit te voorkomen.
+; This device is set to use buffers in memory that may not be \"public\". This can cause your computer to crash if you use a virtual memory system. You should add 1 to the BufMemType setting for this device to avoid this.
+;
+MSG_ERROR_DEVICE
+Openen van apparaat gaf fout %ld
+; Device open returned error %ld
+;
+MSG_ERROR_IDE
+Dit apparaat lijkt zich op een IDE-schijf te bevinden die een oud Commodore IDE-stuurprogramma gebruikt.  Dit stuurprogramma kan lange gegevensoverdrachten proberen uit te voeren die sommige IDE-schijven niet correct afhandelen.  Om het risico op gegevensverlies te vermijden, dient u de MaxTransfer-instelling van dit apparaat te wijzigen in 0x10000.
+; This device appears to be on an IDE drive using an old Commodore IDE driver.  This driver may attempt to perform long data transfers that some IDE drives do not carry out correctly.  To avoid the risk of data loss, you should change this device's MaxTransfer setting to 0x10000.
+;
+MSG_ERROR_DEVICE_QUERY
+Apparaatopvraag (NSCMD_DEVICEQUERY) gaf fout %ld
+; Device query (NSCMD_DEVICEQUERY) returned error %ld
+;
+MSG_ERROR_64BIT
+Dit apparaat strekt zich uit voorbij de eerste 4 gigabyte van de schijf. Om dit apparaat te kunnen gebruiken, moet u ofwel een stuurprogramma gebruiken dat de NSD 64-bits commando's ondersteunt, ofwel het NSDPatch-programma installeren en uitvoeren.
+; This device extends beyond the first 4 gigabytes of the disk. In order to use this device, you must either use a driver that supports the NSD 64-bit commands or install and run the NSDPatch program.
+;
+MSG_ERROR_DEVICE_RETURN
+Apparaat %s gaf fout %ld
+; Device %s returned error %ld
+;
+MSG_ERROR_FLUSH
+wegschrijven (CMD_UPATE)
+; flush (CMD_UPATE)
+;
+MSG_ERROR_INVALIDATE
+ongeldig maken (CMD_CLEAR)
+; invalidate (CMD_CLEAR)
+;
+MSG_ERROR_VERIFY
+Verificatiefout
+; Verify error
+;
+MSG_COMMAND_FORMAT64
+formatteren (NSCMD_TD_FORMAT64)
+; format (NSCMD_TD_FORMAT64)
+;
+MSG_COMMAND_FORMAT
+formatteren (TD_FORMAT)
+; format (TD_FORMAT)
+;
+MSG_COMMAND_READ64
+lezen (NSCMD_TD_READ64)
+; read (NSCMD_TD_READ64)
+;
+MSG_COMMAND_READ
+lezen (CMD_READ)
+; read (CMD_READ)
+;
+MSG_ERROR_TRASHCAN
+Kon geen prullenbak aanmaken op volume\n%s
+; Couldn't create trashcan on volume\n%s
+;
+MSG_ERROR_ICON
+Kon geen schijficoon aanmaken op volume\n%s
+; Couldn't create disk icon on volume\n%s
+;

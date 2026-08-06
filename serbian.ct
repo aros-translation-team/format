@@ -1,0 +1,248 @@
+## version $VER: Format.catalog 2.0 (06.08.2026)
+## language srpski
+## codeset 8
+;
+MSG_OK
+OK
+; OK
+;
+MSG_CANCEL
+Poniçti
+; Cancel
+;
+MSG_INSERT_DISK
+Ubacite disk za formatiranje u ureÐaj %s\nPritisnite RETURN da poŸne formatiranje ili CTRL-C za prekid: 
+; Insert disk to be formatted in device %s\nPress RETURN to begin formatting or CTRL-C to abort: 
+;
+MSG_FORMATTING
+\rFormatiram cilindar %lu, joç %lu 
+; \rFormatting cylinder %lu, %lu to go 
+;
+MSG_VERIFYING
+\rProveravam 
+; \rVerifying 
+;
+MSG_INITIALIZING
+Inicijalizacija diska...\n
+; Initializing disk...\n
+;
+MSG_SELECTDEVICE
+Izaberite ureÐaj za formatiranje
+; Select Device To Format
+;
+MSG_GUI_FORMATTING
+Formatiranje diska...
+; Formatting Disk...
+;
+MSG_GUI_INITIALIZING
+Inicijalizacija diska...
+; Initializing Disk...
+;
+MSG_IN_DEVICE
+u ureÐaju %s
+; in device %s
+;
+MSG_FORMAT_REQUEST_TITLE
+Zahtev za formatiranje
+; Format Request
+;
+MSG_FORMAT_REQUEST_GADGETS
+Formatiraj|Odustani
+; Format|Cancel
+;
+MSG_FORMAT_REQUEST_TEXT
+Da li da formatiram volumen\n%s?\n\nUPOZORENJE!\n\nSvi podaci †e biti izgubljeni!\n(%s)
+; OK to format volume\n%s?\n\nWARNING!\n\nAll data will be lost!\n(%s)
+;
+MSG_UNITS
+KMGTPE
+; KMGTPE
+;
+MSG_CAPACITY_USED
+kapacitet %lu%lc, iskoriç†eno %lu%%
+; %lu%lc capacity, %lu%% used
+;
+MSG_CAPACITY
+kapacitet %lu%lc
+; %lu%lc capacity
+;
+MSG_ERROR_WANDERER
+Mora biti pokrenuto iz Wanderer-a sa izabranom ikonom\n
+; Must be started from Wanderer with a selected icon\n
+;
+MSG_WINDOW_TITLE
+Formatiranje - %s
+; Format - %s
+;
+MSG_DEVICE
+UreÐaj '%s'
+; Device '%s'
+;
+MSG_VOLUME
+Volumen '%b'
+; Volume '%b'
+;
+MSG_APPLICATION_TITLE
+Format
+; Format
+;
+MSG_DESCRIPTION
+Alat za formatiranje diskova
+; Disk Formatting Utility
+;
+MSG_COPYRIGHT
+Kopirajt \xa9 1999 Ben Hutchings, 2008 Pavel Fedin, 2008 The AROS Development Team
+; Copyright \xa9 1999 Ben Hutchings, 2008 Pavel Fedin, 2008 The AROS Development Team
+;
+MSG_AUTHOR
+Ben Hutchings, Pavel Fedin, The AROS Development Team
+; Ben Hutchings, Pavel Fedin, The AROS Development Team
+;
+MSG_LABEL_CURRENT_INFORMATION
+Trenutne informacije:
+; Current Information:
+;
+MSG_LABEL_NEW_VOLUME_NAME
+Novo ime volumena:
+; New Volume Name:
+;
+MSG_DEFAULT_VOLUME_NAME
+Prazan
+; Empty
+;
+MSG_LABEL_PUT_TRASHCAN
+Postavi korpu za otpatke:
+; Put Trashcan:
+;
+MSG_LABEL_FFS
+Fast File System:
+; Fast File System:
+;
+MSG_LABEL_INTL
+Internacionalni mod:
+; International Mode:
+;
+MSG_LABEL_CACHE
+Keç direktorijuma:
+; Directory Cache:
+;
+MSG_BTN_FORMAT
+Format
+; Format
+;
+MSG_BTN_QFORMAT
+Brzo formatiranje
+; Quick Format
+;
+MSG_BTN_CANCEL
+Poniçti
+; Cancel
+;
+MSG_BTN_STOP
+Zaustavi
+; Stop
+;
+MSG_ERROR_NO_APPLICATION
+Ne mogu da napravim aplikaciju\n
+; Can't create application\n
+;
+MSG_ERROR_NO_WINDOW
+Ne mogu da otvorim prozor\n
+; Can't open window\n
+;
+MSG_REQ_ERROR_TITLE
+Greçka
+; Error
+;
+MSG_ERRORS_WARNING
+Upozorenje
+; Warning
+;
+MSG_ERRORS_ERROR
+Greçka
+; Error
+;
+MSG_ERRORS_FAILURE
+Neuspeh
+; Failure
+;
+MSG_FORMAT
+Formatiraj 
+; Format 
+;
+MSG_ERROR_INVALID_DOSTYPE
+Neispravna DosType specifikacija
+; Invalid DosType specification
+;
+MSG_ERROR_TOO_LARGE_1
+Ovaj ureÐaj je ve†i od 4 gigabajta. Amiga fajl-sistem ne mo§e da radi sa ovako velikim ureÐajem.
+; This device is larger than 4 gigabytes in size. The Amiga file-system cannot handle a device this large.
+;
+MSG_ERROR_TOO_LARGE_2
+Ovaj ureÐaj se prostire iza prva 4 gigabajta diska na kome se nalazi.  Da biste ga koristili, morate instalirati verziju 43 ili noviju Amiga fajl-sistema.
+; This device extends beyond the first 4 gigabytes of the disk it is on.  In order to use it, you must install version 43 or later of the Amiga file-system.
+;
+MSG_ERROR_TOO_LARGE_3
+Ovaj ureÐaj je ve†i od 2 gigabajta. Da biste ga koristili, morate instalirati verziju 40 ili noviju Amiga fajl-sistema.
+; This device is larger than 2 gigabytes in size. In order to use it, you must install version 40 or later of the Amiga file-system.
+;
+MSG_ERROR_TOO_LARGE_4
+Ovaj ureÐaj je podeçen da koristi bafere u memoriji koja mo§da nije \"javna\". To mo§e izazvati pad raŸunara ako koristite sistem virtuelne memorije. Treba da dodate 1 na BufMemType podeçavanje ovog ureÐaja da biste to izbegli.
+; This device is set to use buffers in memory that may not be \"public\". This can cause your computer to crash if you use a virtual memory system. You should add 1 to the BufMemType setting for this device to avoid this.
+;
+MSG_ERROR_DEVICE
+Otvaranje ureÐaja je vratilo greçku %ld
+; Device open returned error %ld
+;
+MSG_ERROR_IDE
+Izgleda da se ovaj ureÐaj nalazi na IDE disku koji koristi stari Commodore IDE drajver.  Taj drajver mo§e pokuçati da izvrçi duge prenose podataka koje neki IDE diskovi ne obavljaju ispravno.  Da biste izbegli rizik od gubitka podataka, treba da promenite MaxTransfer podeçavanje ovog ureÐaja na 0x10000.
+; This device appears to be on an IDE drive using an old Commodore IDE driver.  This driver may attempt to perform long data transfers that some IDE drives do not carry out correctly.  To avoid the risk of data loss, you should change this device's MaxTransfer setting to 0x10000.
+;
+MSG_ERROR_DEVICE_QUERY
+Upit ureÐaja (NSCMD_DEVICEQUERY) je vratio greçku %ld
+; Device query (NSCMD_DEVICEQUERY) returned error %ld
+;
+MSG_ERROR_64BIT
+Ovaj ureÐaj se prostire iza prva 4 gigabajta diska. Da biste ga koristili, morate koristiti drajver koji podr§ava NSD 64-bitne komande ili instalirati i pokrenuti program NSDPatch.
+; This device extends beyond the first 4 gigabytes of the disk. In order to use this device, you must either use a driver that supports the NSD 64-bit commands or install and run the NSDPatch program.
+;
+MSG_ERROR_DEVICE_RETURN
+UreÐaj %s je vratio greçku %ld
+; Device %s returned error %ld
+;
+MSG_ERROR_FLUSH
+pra§njenje bafera (CMD_UPATE)
+; flush (CMD_UPATE)
+;
+MSG_ERROR_INVALIDATE
+poniçtavanje (CMD_CLEAR)
+; invalidate (CMD_CLEAR)
+;
+MSG_ERROR_VERIFY
+Greçka pri proveri
+; Verify error
+;
+MSG_COMMAND_FORMAT64
+formatiranje (NSCMD_TD_FORMAT64)
+; format (NSCMD_TD_FORMAT64)
+;
+MSG_COMMAND_FORMAT
+formatiranje (TD_FORMAT)
+; format (TD_FORMAT)
+;
+MSG_COMMAND_READ64
+Ÿitanje (NSCMD_TD_READ64)
+; read (NSCMD_TD_READ64)
+;
+MSG_COMMAND_READ
+Ÿitanje (CMD_READ)
+; read (CMD_READ)
+;
+MSG_ERROR_TRASHCAN
+Ne mogu da napravim korpu za otpatke na volumenu\n%s
+; Couldn't create trashcan on volume\n%s
+;
+MSG_ERROR_ICON
+Ne mogu da napravim ikonu diska na volumenu\n%s
+; Couldn't create disk icon on volume\n%s
+;
