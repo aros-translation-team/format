@@ -15,7 +15,7 @@ Odustani
 ;
 MSG_INSERT_DISK
 Ubacite disk koji æe biti formatiran u ureðaj %s\n\
-Za poèetak formatiranja pritisnuti ENTER ili CTRL-C za prekid:
+Za poèetak formatiranja pritisnuti ENTER ili CTRL-C za prekid: 
 ; Insert disk to be formatted in device %s\n\
 ; Press RETURN to begin formatting or CTRL-C to abort: 
 ;
@@ -24,7 +24,7 @@ MSG_FORMATTING
 ; \rFormatting cylinder %lu, %lu to go 
 ;
 MSG_VERIFYING
-\rProvjeravanje
+\rProvjeravanje 
 ; \rVerifying 
 ;
 MSG_INITIALIZING
@@ -35,7 +35,7 @@ Pokreèem disk...\n
 ; gui.c
 ;
 MSG_SELECTDEVICE
-Izaberite ureðaj koji ¾elite formatirati 
+Izaberite ureðaj koji ¾elite formatirati
 ; Select Device To Format
 ;
 MSG_GUI_FORMATTING
@@ -43,7 +43,7 @@ Formatiram Disk...
 ; Formatting Disk...
 ;
 MSG_GUI_INITIALIZING
-Pokreèem disk...\n
+Pokreèem disk...\n...
 ; Initializing Disk...
 ;
 MSG_IN_DEVICE
@@ -128,7 +128,7 @@ Prazno
 ; Empty
 ;
 MSG_LABEL_PUT_TRASHCAN
-Stavi Kantu za Smeæe: 
+Stavi Kantu za Smeæe:
 ; Put Trashcan:
 ;
 MSG_LABEL_FFS
@@ -187,7 +187,7 @@ Neuspjeh
 ; Failure
 ;
 MSG_FORMAT
-Formatiraj
+Formatiraj 
 ; Format 
 ;
 MSG_ERROR_INVALID_DOSTYPE
@@ -203,7 +203,7 @@ Ureðaj sadr¾ava vi¹e od 4 gigabajta\
 MSG_ERROR_TOO_LARGE_2
 Ureðaj se ¹iri iznad prva 4 gigabajta diska\
  na kojem se nalazi.  Ukoliko ga ¾elite koristiti\
- instalirajte verziju 43 Amiga datoteènog sustava. 
+ instalirajte verziju 43 Amiga datoteènog sustava.
 ; This device extends beyond the first 4 gigabytes of the\
 ;  disk it is on.  In order to use it, you must install\
 ;  version 43 or later of the Amiga file-system.
@@ -211,7 +211,7 @@ Ureðaj se ¹iri iznad prva 4 gigabajta diska\
 MSG_ERROR_TOO_LARGE_3
 Ureðaj se ¹iri iznad prva 2 gigabajta diska\
  na kojem se nalazi.  Ukoliko ga ¾elite koristiti\
- instalirajte verziju 40 Amiga datoteènog sustava. 
+ instalirajte verziju 40 Amiga datoteènog sustava.
 ; This device is larger than 2 gigabytes in size. In order to\
 ;  use it, you must install version 40 or later of the Amiga\
 ;  file-system.
@@ -220,7 +220,7 @@ MSG_ERROR_TOO_LARGE_4
 Ureðaj je postavljen da koristi meðuspremnik u memoriji\
  koji ne mo¾e bit \"public\". Ovo mo¾e izazvati pad sustava\
  ako koristite sustav sa virtualnom memorijom. Dodajte 1 u BufMemType\
- opciju da bi ste izbjegli navede pogre¹ke. 
+ opciju da bi ste izbjegli navede pogre¹ke.
 ; This device is set to use buffers in memory that may not be\
 ;  \"public\". This can cause your computer to crash if you use a\
 ;  virtual memory system. You should add 1 to the BufMemType\
@@ -236,7 +236,7 @@ Ureðaj je IDE pogon koji koristi\
  izvesti duge prijenose podataka koje neki IDE\
  pogoni neæe moæi izvesti ispravno. Podesite\
  MaxTransfer opciju na 0x10000 da bi ste\
- izbjegli navede pogre¹ke.    
+ izbjegli navede pogre¹ke.
 ; This device appears to be on an IDE drive\
 ;  using an old Commodore IDE driver.  This driver may\
 ;  attempt to perform long data transfers that some IDE\

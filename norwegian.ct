@@ -17,12 +17,12 @@ Avbryt
 ;
 MSG_INSERT_DISK
 Sett inn disken som skal formateres i enhet %s\n\
-Tryk ENTER for å begynne formateringen eller CTRL-C for å avbryte:
+Tryk ENTER for å begynne formateringen eller CTRL-C for å avbryte: 
 ; Insert disk to be formatted in device %s\n\
 ; Press RETURN to begin formatting or CTRL-C to abort: 
 ;
 MSG_FORMATTING
-\rFormaterer cylinder %lu, %lu igjen
+\rFormaterer cylinder %lu, %lu igjen 
 ; \rFormatting cylinder %lu, %lu to go 
 ;
 MSG_VERIFYING

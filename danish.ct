@@ -17,7 +17,7 @@ Afbryd
 ;
 MSG_INSERT_DISK
 Indsæt disken, der skal formateres i enhed %s\n\
-Tryk ENTER for at begynde formatering eller CTRL-C for at afbryde:
+Tryk ENTER for at begynde formatering eller CTRL-C for at afbryde: 
 ; Insert disk to be formatted in device %s\n\
 ; Press RETURN to begin formatting or CTRL-C to abort: 
 ;
