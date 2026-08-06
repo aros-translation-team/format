@@ -1,4 +1,4 @@
-## version $VER: Format.catalog 1.0 (18.08.2008)
+## version $VER: Format.catalog 2.0 (06.08.2026)
 ## language português
 ## codeset 0
 ;
@@ -30,6 +30,10 @@ MSG_VERIFYING
 MSG_INITIALIZING
 Inicializando o disco...\n
 ; Initializing disk...\n
+;
+MSG_SELECTDEVICE
+Selecionar Dispositivo a Formatar
+; Select Device To Format
 ;
 ; ===========================================================
 ; gui.c
